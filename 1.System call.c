@@ -9,7 +9,7 @@ p=fork();
 if(p==0)
 {
 printf("I am child having id %d\n",getpid());
-printf("My parent's id is %d\n",getppid());
+printf("My parent's id is %d\n",getpid());
 }
 else{
 printf("My child's id is %d\n",p);
